@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+body {
+  font-family: "Josefin Sans", cursive;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background-color: #1f2220;
+  padding: 10px;
+}
+
+.navbar-logo {
+  padding: 10px 10px;
+  border-radius: 25px;
+}
+
+.navbar-title {
+  font-size: 40px;
+  color: gray;
+}
+
+.navbar-title-owner {
+  font-size: 20px;
+  margin-left: auto;
+  color: white;
+}
