@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Josefin Sans", cursive;
 }
 
 main {
-  padding: 50px;
+  padding: 40px;
 }
 
 nav {
@@ -32,7 +36,7 @@ nav {
   color: white;
 }
 
-form {
+.form {
   display: grid;
 
   gap: 20px;
@@ -53,4 +57,13 @@ form {
   font-size: 25px;
   color: #4d5248;
   height: 50px;
+}
+
+.form-button:hover {
+  background-color: #3e8e41;
+  transition-duration: 0.4s;
+}
+
+.meme-image {
+  max-width: 100%;
 }
